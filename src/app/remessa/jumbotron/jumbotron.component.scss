@@ -1,0 +1,18 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  p:last-child {
+    margin-bottom: 0;
+    span.badge {
+      font-weight: 300;
+    }
+  }
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  .container {
+    max-width: 40rem;
+  }
+}

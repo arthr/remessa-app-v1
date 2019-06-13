@@ -1,0 +1,30 @@
+<main role="main">
+
+  <app-jumbotron></app-jumbotron>
+
+  <div class="py-5 bg-light">
+    <div class="container">
+      <div class="card-deck mb-4 text-center">
+
+        <div *ngFor="let item of items" class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">{{ item.title }}</h4>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title pricing-card-title">R$ {{ item.totalValue }} <small class="text-danger">/
+                {{ item.missed }}</small></h4>
+            <ul class="list-unstyled mt-3 mb-4">
+
+              <li *ngFor="let detail of item.details">{{ detail }}</li>
+
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-success">Baixar Arquivo</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</main>
