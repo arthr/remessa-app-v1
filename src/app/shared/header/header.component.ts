@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  @Input('logotext') logotext: string;
+  @Input('logo') logo: string;
 
   constructor() { }
 

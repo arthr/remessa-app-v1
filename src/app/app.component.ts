@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  logotext = 'Banpar :: Toolkit';
+  logo = 'Banpar :: Toolkit';
 
+  constructor() {
+    console.log(`AppComponent`);
+  }
 
 }

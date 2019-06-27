@@ -11,12 +11,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from './shared/shared.module';
 import { RemessaComponent } from './remessa/remessa.component';
 import { JumbotronComponent } from './remessa/jumbotron/jumbotron.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RemessaComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
